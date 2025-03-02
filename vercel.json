@@ -1,7 +1,12 @@
 {
   "routes": [
     {
-      "src": "/.*",
+      "src": "^/$",
+      "dest": "/api/notfound",
+      "status": 404
+    },
+    {
+      "src": "^(?!/api/|/public/|/images/|/files/).*",
       "dest": "/api/notfound",
       "status": 404
     }
