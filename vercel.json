@@ -6,8 +6,8 @@
       "status": 404
     },
     {
-      "src": "^(?!/api/|/public/|/images/|/files/).*",
-      "dest": "/api/notfound",
+      "src": "^(?!|/images/|/others/).*",
+      "dest": "/public/",
       "status": 404
     }
   ]
